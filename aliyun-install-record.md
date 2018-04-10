@@ -568,7 +568,7 @@ pasv_max_port=62000
 
    ​
 
-   **由于sudo创建的，属于root用户，组好修改为ftpuser用户所有**
+   **由于sudo创建的，属于root用户，最好修改为ftpuser用户所有**
 
    > [emon@emon local]$ sudo chown ftpuser:ftpuser /fileserver/ftproot/index.html 
 
